@@ -11,7 +11,7 @@ def page():
     print(request.form['name'] + " said " + request.form['contents'] + "!")
     file = open("index.html", "r")
     output = file.read()
-    return output + "<p>Done! Check console.</p>"
+    return output + "<p>Done! Check your console.</p>"
   else:
     file = open("index.html", "r")
     output = file.read()
