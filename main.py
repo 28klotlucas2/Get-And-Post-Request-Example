@@ -1,6 +1,7 @@
 from flask import Flask
 from flask import request
 from threading import Thread
+from stopbutton import stopbutton
 import os
 
 app = Flask('')
@@ -46,4 +47,4 @@ def run():
 
 server = Thread(target=run)
 server.start()
-os.system("clear")
+stopbutton()
