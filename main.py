@@ -2,7 +2,6 @@ from flask import Flask
 from flask import request
 from threading import Thread
 from stopbutton import stopbutton
-import os
 
 app = Flask('')
 
